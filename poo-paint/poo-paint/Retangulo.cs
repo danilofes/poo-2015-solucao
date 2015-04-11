@@ -27,10 +27,6 @@ namespace poo_paint
             return "retangulo[x:" + this.x + ",y:" + this.y + ",l:" + this.largura + ",a:" + this.altura + "]";
         }
 
-        public static void Main(String[] args) {
-
-        }
-
         public static void ZeraContador() {
             contador = 0;
         }
