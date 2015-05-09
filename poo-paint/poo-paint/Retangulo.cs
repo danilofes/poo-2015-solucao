@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Drawing;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace poo_paint
 {
-    public class Retangulo
+    public class Retangulo : Figura
     {
-        public int x;
-        public int y;
-        public int largura;
-        public int altura;
+        
+        private int largura;
+        private int altura;
 
         private static int contador = 0;
 
@@ -23,7 +23,7 @@ namespace poo_paint
             contador++;
         }
 
-        public String Imprime() {
+        public override String Imprime() {
             return "retangulo[x:" + this.x + ",y:" + this.y + ",l:" + this.largura + ",a:" + this.altura + "]";
         }
 

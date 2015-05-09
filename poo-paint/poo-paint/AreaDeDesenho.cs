@@ -20,7 +20,8 @@ namespace poo_paint
         private void Desenha(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
-            g.DrawRectangle(Pens.Black, 45, 67, 76, 89);
+            g.DrawRectangle(Pens.Black, 34, 67, 89, 78);
+            g.DrawEllipse(Pens.Black, 67, 89, 131, 131);
         }
     }
 }
